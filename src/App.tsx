@@ -96,8 +96,8 @@ function App() {
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
             <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
                 <div className="text-center mb-8">
-                    <h1 className="text-3xl font-bold text-gray-800 mb-2">Tạo Mật Khẩu</h1>
-                    <p className="text-gray-600">Chuẩn Google - An toàn & Mạnh mẽ</p>
+                    <h1 className="text-3xl font-bold text-gray-800 mb-2">Generate Password</h1>
+                    <p className="text-gray-600">Google's Standard - Secure & Strong</p>
                 </div>
 
                 {/* Password Display */}
@@ -225,8 +225,9 @@ function App() {
                 {/* Tips */}
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                     <p className="text-xs text-gray-600 leading-relaxed">
-                        💡 <strong>Tips:</strong> Strong passwords should contain at least 15 characters with various character types combined.
-                        Avoid use same password for multiple accounts
+                        💡 <strong>Tips:</strong> Strong passwords should contain at least 15 characters with various
+                        character types combined.
+                        Avoid using same password for multiple accounts
                     </p>
                 </div>
             </div>
