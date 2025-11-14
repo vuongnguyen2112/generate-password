@@ -28,7 +28,7 @@ function App() {
     const generatePassword = () => {
         const uppercase = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
         const lowercase = 'abcdefghijkmnopqrstuvwxyz';
-        const numbers = '23456789';
+        const numbers = '0123456789';
         const symbols = '!@#$%^&*-_=+';
 
         let chars = '';
@@ -65,7 +65,7 @@ function App() {
         if (password) {
             await navigator.clipboard.writeText(password);
             setCopied(true);
-            setTimeout(() => setCopied(false), 2000);
+            setTimeout(() => setCopied(false), 3000);
         }
     };
 
